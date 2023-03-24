@@ -1,4 +1,4 @@
-# Guided Inquiry Week 17 Part 2 [GI Link](https://docs.google.com/document/d/1GuKnMsJO1KwWbxb89tAkdaB26OH1EBBg6-EIItjxw0Y/edit)
+# [Guided Inquiry Week 17 Part 2](https://docs.google.com/document/d/1GuKnMsJO1KwWbxb89tAkdaB26OH1EBBg6-EIItjxw0Y/edit)
 
 
 ## VERY EASY: 
