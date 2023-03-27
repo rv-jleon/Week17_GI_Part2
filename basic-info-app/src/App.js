@@ -76,17 +76,7 @@ class App extends Component {
           name: "Diana Capellan",
           number: "+1(704) 849-9171",
           DOB: "July 30, 1997",
-        },
-        {
-          name: "Sincere Legere",
-          number: "+1(123) 456-7890",
-          DOB: "N/A",
-        },
-        {
-          name: "Ruth Camarillo",
-          number: "+1(123) 456-7890",
-          DOB: "N/A",
-        },
+        }
       ],
     };
   }
@@ -94,11 +84,11 @@ class App extends Component {
   render() {
     return (
       <div>
-        <BasicInfo person={this.state.person[0]} />
+        {/* <BasicInfo person={this.state.person[0]} />
         <BasicInfo person={this.state.person[1]} />
-        <BasicInfo person={this.state.person[2]} />
-        <BasicInfo person={this.state.person[3]} />
-        <BasicInfo person={this.state.person[4]} />
+        <BasicInfo person={this.state.person[2]} /> */}
+
+        {this.state.person.map((person, index) => (<BasicInfo key={index} person={person} />))}
       </div>
     );
   }

@@ -4,9 +4,6 @@ import { Component } from "react";
 
 // Medium
 // export default class BasicInfo extends React.Component {
-//   constructor(props) {
-//     super(props);
-//   }
 
 //   render() {
 //     return (
